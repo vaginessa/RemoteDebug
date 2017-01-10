@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#666666"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textSize="12sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/iv_tip_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:src="@drawable/ic_ok" />
+
+        <TextView
+            android:id="@+id/tv_tip_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_msg_ok"
+            android:textColor="#2aa515"
+            android:textSize="13sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_command_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:text="@string/command_tip"
+        android:textColor="#444"
+        android:textSize="14sp"
+        android:typeface="normal" />
+
+</LinearLayout>

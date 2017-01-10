@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemoteDebug</string>
+    <string name="copyright">By @wuwz.</string>
+    <string name="command_tip">请在同网段电脑端执行:\nadb connect {0}</string>
+    <string name="tip_msg_ok">已开启远程调试</string>
+    <string name="tip_msg_error">启动远程调试失败,点我重试?</string>
+</resources>

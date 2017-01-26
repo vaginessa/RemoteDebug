@@ -1,3 +1,3 @@
 # RemoteDebug
 
-![image](https://github.com/wuwz/RemoteDebug/blob/master/demo.png)
+![image](https://raw.githubusercontent.com/wuwz/RemoteDebug/master/demo.png)
